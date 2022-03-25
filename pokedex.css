@@ -1,0 +1,118 @@
+*{
+    text-align: center;
+}
+input{
+    background-color: aliceblue;
+}
+
+button{
+    background-color:chartreuse;
+}
+
+h1{
+    color: hotpink;
+    
+}
+
+h2{
+    color:azure;
+    background-color:transparent ;
+    }
+h3{
+    color:salmon;
+    background-color: transparent;
+}
+
+h4 {
+    color: gold;
+    background-color: transparent;
+}
+
+body{
+         background-image: url("./imagen/xvp.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin: 0;
+         height: 125vh;
+         width: 100%;
+    }
+ul{
+    color:greenyellow;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+
+}
+
+ol{
+    color:cyan;
+    justify-content:left;
+    align-content:flex-start;
+    padding: 5px;
+    font-size: 18px;
+
+}
+
+#columnas{
+    column-count: 7;
+    column-gap:20px;
+    column-rule:3px;
+
+  
+    
+
+}
+
+div, h1, ul, li, h3, h4 {
+    background-color: transparent;
+    text-align: center;
+  
+}
+
+.uno  {
+    background: transparent;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:unset;
+    align-content:flex-start;
+    height:100vh;
+    margin-left: 50px;
+}
+
+.dos  {
+    background: transparent;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-items:flex-start;
+    align-content:flex-start;
+    height:100vh;
+    margin-top: -700px;
+    margin-left: 300px;
+  
+}
+
+.tres {
+
+    background: transparent;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:flex-start;
+    align-content:flex-start;
+    margin-top: -670px;
+    margin-left: 700px;
+    height:300px;
+    width:450px;
+}
+
+button{
+   background-color:  crimson;
+   color: white;
+   font-size:larger;
+}
